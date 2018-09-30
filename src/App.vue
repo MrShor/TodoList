@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorldName'
+import HelloWorld from './components/HelloWorldOld'
 import TodoList from './components/TodoList'
 export default {
   name: 'App',
@@ -44,5 +44,6 @@ export default {
   /* text-align: center; */
   color: #2c3e50;
   margin-top: 60px;
+  font-size: 24px;
 }
 </style>
